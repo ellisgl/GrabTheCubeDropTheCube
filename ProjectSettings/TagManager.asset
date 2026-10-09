@@ -31,6 +31,9 @@ TagManager:
   - SamplesInfoPanel
   - QDSUIToggleCheckboxRadio
   - QDSUIToggleThumbnail
+  - DeskTop
+  - Floor
+  - Chair
   layers:
   - Default
   - TransparentFX

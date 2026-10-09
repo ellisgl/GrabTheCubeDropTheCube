@@ -1,5 +1,1013 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1138963649 &-7013429790772255718
+BuildProfilePlayerSettings:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player Settings
+  serializedVersion: 32
+  productGUID: 1fabc8fc0810b0f3093926daacad20ff
+  AndroidProfiler: 0
+  AndroidFilterTouchesWhenObscured: 0
+  AndroidEnableSustainedPerformanceMode: 0
+  defaultScreenOrientation: 3
+  targetDevice: 2
+  useOnDemandResources: 0
+  accelerometerFrequency: 60
+  companyName: Stuff By Ellis
+  productName: GrabTheCubeDropTheCube
+  defaultCursor: {fileID: 0}
+  cursorHotspot: {x: 0, y: 0}
+  m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
+  m_ShowUnitySplashScreen: 1
+  m_ShowUnitySplashLogo: 1
+  m_SplashScreenOverlayOpacity: 1
+  m_SplashScreenAnimation: 1
+  m_SplashScreenLogoStyle: 1
+  m_SplashScreenDrawMode: 0
+  m_SplashScreenBackgroundAnimationZoom: 1
+  m_SplashScreenLogoAnimationZoom: 1
+  m_SplashScreenBackgroundLandscapeAspect: 1
+  m_SplashScreenBackgroundPortraitAspect: 1
+  m_SplashScreenBackgroundLandscapeUvs:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  m_SplashScreenBackgroundPortraitUvs:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  m_SplashScreenLogos: []
+  m_VirtualRealitySplashScreen: {fileID: 0}
+  defaultScreenWidth: 1024
+  defaultScreenHeight: 768
+  defaultScreenWidthWeb: 960
+  defaultScreenHeightWeb: 600
+  webProgressiveAssetLoading: 0
+  m_StereoRenderingPath: 2
+  m_ActiveColorSpace: 1
+  unsupportedMSAAFallback: 0
+  m_SpriteBatchMaxVertexCount: 65535
+  m_SpriteBatchVertexThreshold: 300
+  m_MTRendering: 1
+  mipStripping: 0
+  numberOfMipsStripped: 0
+  numberOfMipsStrippedPerMipmapLimitGroup: {}
+  m_StackTraceTypes: 010000000100000001000000010000000100000001000000i
+  iosShowActivityIndicatorOnLoading: -1
+  androidShowActivityIndicatorOnLoading: -1
+  iosUseCustomAppBackgroundBehavior: 0
+  allowedAutorotateToPortrait: 1
+  allowedAutorotateToPortraitUpsideDown: 1
+  allowedAutorotateToLandscapeRight: 1
+  allowedAutorotateToLandscapeLeft: 1
+  useOSAutorotation: 1
+  use32BitDisplayBuffer: 1
+  preserveFramebufferAlpha: 0
+  adjustIOSFPSUsingThermalState: 1
+  thermalStateSeriousIOSFPS: 30
+  thermalStateCriticalIOSFPS: 15
+  disableDepthAndStencilBuffers: 0
+  androidStartInFullscreen: 1
+  androidRenderOutsideSafeArea: 1
+  androidUseSwappy: 0
+  androidRequestedVisibleInsets: 0
+  m_AndroidWindowInsets:
+    2:
+      overlapping: 0
+      appearance: 0
+    1:
+      overlapping: 0
+      appearance: 0
+  androidSystemBarsBehavior: 2
+  androidSystemBarsBackground: 0
+  androidDisplayOptions: 1
+  androidBlitType: 0
+  androidResizeableActivity: 1
+  androidDefaultWindowWidth: 1920
+  androidDefaultWindowHeight: 1080
+  androidMinimumWindowWidth: 400
+  androidMinimumWindowHeight: 300
+  androidFullscreenMode: 1
+  androidAutoRotationBehavior: 1
+  androidPredictiveBackSupport: 1
+  androidApplicationEntry: 2
+  defaultIsNativeResolution: 1
+  macRetinaSupport: 1
+  runInBackground: 1
+  callOnDisableOnAssetBundleUnload: 1
+  muteOtherAudioSources: 0
+  Prepare IOS For Recording: 0
+  Force IOS Speakers When Recording: 0
+  audioSpatialExperience: 0
+  deferSystemGesturesMode: 0
+  hideHomeButton: 0
+  submitAnalytics: 1
+  usePlayerLog: 1
+  dedicatedServerOptimizations: 1
+  bakeCollisionMeshes: 0
+  forceSingleInstance: 0
+  useFlipModelSwapchain: 1
+  resizableWindow: 0
+  useMacAppStoreValidation: 0
+  macAppStoreCategory: public.app-category.games
+  gpuSkinning: 1
+  meshDeformation: 2
+  xboxPIXTextureCapture: 0
+  xboxEnableAvatar: 0
+  xboxEnableKinect: 0
+  xboxEnableKinectAutoTracking: 0
+  xboxEnableFitness: 0
+  visibleInBackground: 1
+  allowFullscreenSwitch: 1
+  fullscreenMode: 1
+  xboxSpeechDB: 0
+  xboxEnableHeadOrientation: 0
+  xboxEnableGuest: 0
+  xboxEnablePIXSampling: 0
+  metalFramebufferOnly: 0
+  metalUseMetalDisplayLink: 0
+  xboxOneResolution: 0
+  xboxOneSResolution: 0
+  xboxOneXResolution: 3
+  xboxOneMonoLoggingLevel: 0
+  xboxOneLoggingLevel: 1
+  xboxOneDisableEsram: 0
+  xboxOneEnableTypeOptimization: 0
+  xboxOnePresentImmediateThreshold: 0
+  switchQueueCommandMemory: 1048576
+  switchQueueControlMemory: 16384
+  switchQueueComputeMemory: 262144
+  switchNVNShaderPoolsGranularity: 33554432
+  switchNVNDefaultPoolsGranularity: 16777216
+  switchNVNOtherPoolsGranularity: 16777216
+  switchGpuScratchPoolGranularity: 2097152
+  switchAllowGpuScratchShrinking: 0
+  switchNVNMaxPublicTextureIDCount: 0
+  switchNVNMaxPublicSamplerIDCount: 0
+  switchMaxWorkerMultiple: 8
+  switchNVNGraphicsFirmwareMemory: 32
+  switchGraphicsJobsSyncAfterKick: 1
+  vulkanNumSwapchainBuffers: 3
+  vulkanEnableSetSRGBWrite: 0
+  vulkanEnablePreTransform: 1
+  vulkanEnableLateAcquireNextImage: 0
+  vulkanEnableCommandBufferRecycling: 1
+  loadStoreDebugModeEnabled: 0
+  visionOSBundleVersion: 1.0
+  tvOSBundleVersion: 1.0
+  bundleVersion: 0.1.0
+  preloadedAssets:
+  - {fileID: 11400000, guid: 13bfa92bd0ba0af799460bd7d62235cc, type: 2}
+  - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  metroInputSource: 0
+  wsaTransparentSwapchain: 0
+  xboxOneDisableKinectGpuReservation: 1
+  xboxOneEnable7thCore: 1
+  vrSettings:
+    enable360StereoCapture: 0
+  enableFrameTimingStats: 0
+  enableOpenGLProfilerGPURecorders: 1
+  allowHDRDisplaySupport: 0
+  useHDRDisplay: 0
+  hdrBitDepth: 0
+  m_ColorGamuts: 00000000i
+  targetPixelDensity: 30
+  resolutionScalingMode: 0
+  resetResolutionOnWindowResize: 0
+  androidSupportedAspectRatio: 1
+  androidMaxAspectRatio: 2.4
+  androidMinAspectRatio: 1
+  applicationIdentifier:
+    Android: com.UnityTechnologies.com.unity.template.urpblank
+    Standalone: com.Unity-Technologies.com.unity.template.urp-blank
+    iPhone: com.Unity-Technologies.com.unity.template.urp-blank
+  buildNumber:
+    Standalone: 0
+    VisionOS: 0
+    iPhone: 0
+    tvOS: 0
+  overrideDefaultApplicationIdentifier: 1
+  AndroidBundleVersionCode: 1
+  AndroidMinSdkVersion: 34
+  AndroidTargetSdkVersion: 34
+  AndroidCompileSdkVersion: 34000000
+  AndroidPreferredInstallLocation: 0
+  AndroidPreferredDataLocation: 1
+  aotOptions: 
+  stripEngineCode: 0
+  iPhoneStrippingLevel: 0
+  iPhoneScriptCallOptimization: 0
+  ForceInternetPermission: 0
+  ForceSDCardPermission: 0
+  CreateWallpaper: 0
+  androidSplitApplicationBinary: 0
+  keepLoadedShadersAlive: 0
+  StripUnusedMeshComponents: 0
+  strictShaderVariantMatching: 0
+  VertexChannelCompressionMask: 4054
+  iPhoneSdkVersion: 988
+  iOSSimulatorArchitecture: 0
+  iOSTargetOSVersionString: 16.0
+  tvOSSdkVersion: 0
+  tvOSSimulatorArchitecture: 0
+  tvOSRequireExtendedGameController: 0
+  tvOSTargetOSVersionString: 16.0
+  VisionOSSdkVersion: 0
+  VisionOSTargetOSVersionString: 1.0
+  xcodeProjectType: 0
+  uIPrerenderedIcon: 0
+  uIRequiresPersistentWiFi: 0
+  uIRequiresFullScreen: 1
+  uIStatusBarHidden: 1
+  uIExitOnSuspend: 0
+  uIStatusBarStyle: 0
+  appleTVSplashScreen: {fileID: 0}
+  appleTVSplashScreen2x: {fileID: 0}
+  tvOSSmallIconLayers: []
+  tvOSSmallIconLayers2x: []
+  tvOSLargeIconLayers: []
+  tvOSLargeIconLayers2x: []
+  tvOSTopShelfImageLayers: []
+  tvOSTopShelfImageLayers2x: []
+  tvOSTopShelfImageWideLayers: []
+  tvOSTopShelfImageWideLayers2x: []
+  iOSLaunchScreenType: 0
+  iOSLaunchScreenPortrait: {fileID: 0}
+  iOSLaunchScreenLandscape: {fileID: 0}
+  iOSLaunchScreenBackgroundColor:
+    serializedVersion: 2
+    rgba: 0
+  iOSLaunchScreenFillPct: 100
+  iOSLaunchScreenSize: 100
+  iOSLaunchScreeniPadType: 0
+  iOSLaunchScreeniPadImage: {fileID: 0}
+  iOSLaunchScreeniPadBackgroundColor:
+    serializedVersion: 2
+    rgba: 0
+  iOSLaunchScreeniPadFillPct: 100
+  iOSLaunchScreeniPadSize: 100
+  iOSLaunchScreenCustomStoryboardPath: 
+  iOSLaunchScreeniPadCustomStoryboardPath: 
+  iOSDeviceRequirements: []
+  iOSURLSchemes: []
+  macOSURLSchemes: []
+  iOSBackgroundModes: 0
+  iOSMetalForceHardShadows: 0
+  metalEditorSupport: 1
+  metalAPIValidation: 1
+  metalCompileShaderBinary: 0
+  iOSRenderExtraFrameOnPause: 0
+  iosCopyPluginsCodeInsteadOfSymlink: 0
+  appleDeveloperTeamID: 
+  iOSManualSigningProvisioningProfileID: 
+  tvOSManualSigningProvisioningProfileID: 
+  VisionOSManualSigningProvisioningProfileID: 
+  iOSManualSigningProvisioningProfileType: 0
+  tvOSManualSigningProvisioningProfileType: 0
+  VisionOSManualSigningProvisioningProfileType: 0
+  appleEnableAutomaticSigning: 0
+  iOSRequireARKit: 0
+  appleEnableProMotion: 0
+  shaderPrecisionModel: 0
+  clonedFromGUID: 3c72c65a16f0acb438eed22b8b16c24a
+  templatePackageId: com.unity.template.urp-blank@17.2.5
+  templateDefaultScene: Assets/Scenes/SampleScene.unity
+  useCustomMainManifest: 0
+  useCustomLauncherManifest: 0
+  useCustomMainGradleTemplate: 0
+  useCustomLauncherGradleManifest: 0
+  useCustomBaseGradleTemplate: 0
+  useCustomGradlePropertiesTemplate: 0
+  useCustomGradleSettingsTemplate: 0
+  useCustomProguardFile: 0
+  AndroidTargetArchitectures: 2
+  AndroidSplashScreenScale: 0
+  androidSplashScreen: {fileID: 0}
+  AndroidKeystoreName: 
+  AndroidKeyaliasName: 
+  AndroidEnableArmv9SecurityFeatures: 0
+  AndroidEnableArm64MTE: 0
+  AndroidBuildApkPerCpuArchitecture: 0
+  AndroidTVCompatibility: 0
+  AndroidIsGame: 1
+  androidAppCategory: 3
+  useAndroidAppCategory: 1
+  androidAppCategoryOther: 
+  androidEnableBanner: 1
+  androidUseLowAccuracyLocation: 0
+  androidUseCustomKeystore: 0
+  androidRenderServiceUseVirtualDisplay: 0
+  m_AndroidBanners:
+  - width: 320
+    height: 180
+    banner: {fileID: 0}
+  androidGamepadSupportLevel: 0
+  AndroidMinifyRelease: 0
+  AndroidMinifyDebug: 0
+  AndroidValidateAppBundleSize: 1
+  AndroidAppBundleSizeToValidate: 150
+  AndroidReportGooglePlayAppDependencies: 1
+  androidSymbolsSizeThreshold: 800
+  androidIconSourceType: 0
+  androidAdaptiveIconVectorDrawableBackground: {fileID: 0}
+  androidAdaptiveIconVectorDrawableForeground: {fileID: 0}
+  androidAdaptiveIconVectorDrawableMonochrome: {fileID: 0}
+  androidAdaptiveBannerVectorDrawableBackground: {fileID: 0}
+  androidAdaptiveBannerVectorDrawableForeground: {fileID: 0}
+  m_BuildTargetIcons: []
+  m_BuildTargetPlatformIcons:
+  - m_BuildTarget: iPhone
+    m_Icons:
+    - m_Textures: []
+      m_Width: 180
+      m_Height: 180
+      m_Kind: 0
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 120
+      m_Height: 120
+      m_Kind: 0
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 167
+      m_Height: 167
+      m_Kind: 0
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 152
+      m_Height: 152
+      m_Kind: 0
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 76
+      m_Height: 76
+      m_Kind: 0
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 120
+      m_Height: 120
+      m_Kind: 3
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 80
+      m_Height: 80
+      m_Kind: 3
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 80
+      m_Height: 80
+      m_Kind: 3
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 40
+      m_Height: 40
+      m_Kind: 3
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 87
+      m_Height: 87
+      m_Kind: 1
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 58
+      m_Height: 58
+      m_Kind: 1
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 29
+      m_Height: 29
+      m_Kind: 1
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 58
+      m_Height: 58
+      m_Kind: 1
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 29
+      m_Height: 29
+      m_Kind: 1
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 60
+      m_Height: 60
+      m_Kind: 2
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 40
+      m_Height: 40
+      m_Kind: 2
+      m_SubKind: iPhone
+    - m_Textures: []
+      m_Width: 40
+      m_Height: 40
+      m_Kind: 2
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 20
+      m_Height: 20
+      m_Kind: 2
+      m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 1024
+      m_Height: 1024
+      m_Kind: 4
+      m_SubKind: App Store
+  - m_BuildTarget: Android
+    m_Icons:
+    - m_Textures: []
+      m_Width: 432
+      m_Height: 432
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 324
+      m_Height: 324
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 216
+      m_Height: 216
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 162
+      m_Height: 162
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 108
+      m_Height: 108
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 81
+      m_Height: 81
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 192
+      m_Height: 192
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 144
+      m_Height: 144
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 96
+      m_Height: 96
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 72
+      m_Height: 72
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 48
+      m_Height: 48
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 36
+      m_Height: 36
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 192
+      m_Height: 192
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 144
+      m_Height: 144
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 96
+      m_Height: 96
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 72
+      m_Height: 72
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 48
+      m_Height: 48
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 36
+      m_Height: 36
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 640
+      m_Height: 360
+      m_Kind: 3
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 480
+      m_Height: 270
+      m_Kind: 3
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 320
+      m_Height: 180
+      m_Kind: 3
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 240
+      m_Height: 135
+      m_Kind: 3
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 160
+      m_Height: 90
+      m_Kind: 3
+      m_SubKind: 
+  - m_BuildTarget: tvOS
+    m_Icons:
+    - m_Textures: []
+      m_Width: 1280
+      m_Height: 768
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 800
+      m_Height: 480
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 400
+      m_Height: 240
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 4640
+      m_Height: 1440
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 2320
+      m_Height: 720
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 3840
+      m_Height: 1440
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 1920
+      m_Height: 720
+      m_Kind: 1
+      m_SubKind: 
+  m_BuildTargetBatching: []
+  m_UseLegacyStaticBatchingDefault: 1
+  m_BuildTargetShaderSettings: []
+  m_BuildTargetGraphicsJobs:
+  - m_BuildTarget: AndroidPlayer
+    m_GraphicsJobs: 1
+  m_BuildTargetGraphicsJobMode:
+  - m_BuildTarget: AndroidPlayer
+    m_GraphicsJobMode: 1
+  m_BuildTargetGraphicsAPIs:
+  - m_BuildTarget: iOSSupport
+    m_APIs: 10000000i
+    m_UGKFlags: 00000000i
+    m_Automatic: 1
+  - m_BuildTarget: AndroidPlayer
+    m_APIs: 15000000i
+    m_UGKFlags: 00000000i
+    m_Automatic: 0
+  m_DefaultShaderChunkSizeInMB: 16
+  m_DefaultShaderChunkCount: 0
+  openGLRequireES31: 0
+  openGLRequireES31AEP: 0
+  openGLRequireES32: 0
+  m_TemplateCustomTags: {}
+  mobileMTRendering:
+    Android: 1
+    iPhone: 1
+    tvOS: 1
+  m_BuildTargetGroupLightmapEncodingQuality:
+  - serializedVersion: 2
+    m_BuildTarget: Android
+    m_EncodingQuality: 1
+  m_BuildTargetGroupHDRCubemapEncodingQuality: []
+  m_BuildTargetGroupLightmapSettings: []
+  m_BuildTargetGroupLoadStoreDebugModeSettings: []
+  m_BuildTargetNormalMapEncoding:
+  - m_BuildTarget: Android
+    m_Encoding: 1
+  m_BuildTargetDefaultTextureCompressionFormat:
+  - serializedVersion: 3
+    m_BuildTarget: Android
+    m_Formats: 03000000i
+  playModeTestRunnerEnabled: 0
+  runPlayModeTestAsEditModeTest: 0
+  actionOnDotNetUnhandledException: 1
+  editorGfxJobOverride: 1
+  enableInternalProfiler: 0
+  logObjCUncaughtExceptions: 1
+  enableCrashReportAPI: 0
+  cameraUsageDescription: 
+  locationUsageDescription: 
+  microphoneUsageDescription: 
+  bluetoothUsageDescription: 
+  macOSTargetOSVersion: 12.0
+  switchNMETAOverride: 
+  switchNetLibKey: 
+  switchSocketMemoryPoolSize: 6144
+  switchSocketAllocatorPoolSize: 128
+  switchSocketConcurrencyLimit: 14
+  switchScreenResolutionBehavior: 2
+  switchUseCPUProfiler: 0
+  switchEnableFileSystemTrace: 0
+  switchLTOSetting: 0
+  switchApplicationID: 0x01004b9000490000
+  switchNSODependencies: 
+  switchCompilerFlags: 
+  switchTitleNames_0: 
+  switchTitleNames_1: 
+  switchTitleNames_2: 
+  switchTitleNames_3: 
+  switchTitleNames_4: 
+  switchTitleNames_5: 
+  switchTitleNames_6: 
+  switchTitleNames_7: 
+  switchTitleNames_8: 
+  switchTitleNames_9: 
+  switchTitleNames_10: 
+  switchTitleNames_11: 
+  switchTitleNames_12: 
+  switchTitleNames_13: 
+  switchTitleNames_14: 
+  switchTitleNames_15: 
+  switchPublisherNames_0: 
+  switchPublisherNames_1: 
+  switchPublisherNames_2: 
+  switchPublisherNames_3: 
+  switchPublisherNames_4: 
+  switchPublisherNames_5: 
+  switchPublisherNames_6: 
+  switchPublisherNames_7: 
+  switchPublisherNames_8: 
+  switchPublisherNames_9: 
+  switchPublisherNames_10: 
+  switchPublisherNames_11: 
+  switchPublisherNames_12: 
+  switchPublisherNames_13: 
+  switchPublisherNames_14: 
+  switchPublisherNames_15: 
+  switchIcons_0: {fileID: 0}
+  switchIcons_1: {fileID: 0}
+  switchIcons_2: {fileID: 0}
+  switchIcons_3: {fileID: 0}
+  switchIcons_4: {fileID: 0}
+  switchIcons_5: {fileID: 0}
+  switchIcons_6: {fileID: 0}
+  switchIcons_7: {fileID: 0}
+  switchIcons_8: {fileID: 0}
+  switchIcons_9: {fileID: 0}
+  switchIcons_10: {fileID: 0}
+  switchIcons_11: {fileID: 0}
+  switchIcons_12: {fileID: 0}
+  switchIcons_13: {fileID: 0}
+  switchIcons_14: {fileID: 0}
+  switchIcons_15: {fileID: 0}
+  switchSmallIcons_0: {fileID: 0}
+  switchSmallIcons_1: {fileID: 0}
+  switchSmallIcons_2: {fileID: 0}
+  switchSmallIcons_3: {fileID: 0}
+  switchSmallIcons_4: {fileID: 0}
+  switchSmallIcons_5: {fileID: 0}
+  switchSmallIcons_6: {fileID: 0}
+  switchSmallIcons_7: {fileID: 0}
+  switchSmallIcons_8: {fileID: 0}
+  switchSmallIcons_9: {fileID: 0}
+  switchSmallIcons_10: {fileID: 0}
+  switchSmallIcons_11: {fileID: 0}
+  switchSmallIcons_12: {fileID: 0}
+  switchSmallIcons_13: {fileID: 0}
+  switchSmallIcons_14: {fileID: 0}
+  switchSmallIcons_15: {fileID: 0}
+  switchManualHTML: 
+  switchAccessibleURLs: 
+  switchLegalInformation: 
+  switchMainThreadStackSize: 1048576
+  switchPresenceGroupId: 
+  switchLogoHandling: 0
+  switchReleaseVersion: 0
+  switchDisplayVersion: 1.0.0
+  switchStartupUserAccount: 0
+  switchSupportedLanguagesMask: 0
+  switchLogoType: 0
+  switchApplicationErrorCodeCategory: 
+  switchUserAccountSaveDataSize: 0
+  switchUserAccountSaveDataJournalSize: 0
+  switchApplicationAttribute: 0
+  switchCardSpecSize: -1
+  switchCardSpecClock: -1
+  switchRatingsMask: 0
+  switchRatingsInt_0: 0
+  switchRatingsInt_1: 0
+  switchRatingsInt_2: 0
+  switchRatingsInt_3: 0
+  switchRatingsInt_4: 0
+  switchRatingsInt_5: 0
+  switchRatingsInt_6: 0
+  switchRatingsInt_7: 0
+  switchRatingsInt_8: 0
+  switchRatingsInt_9: 0
+  switchRatingsInt_10: 0
+  switchRatingsInt_11: 0
+  switchRatingsInt_12: 0
+  switchLocalCommunicationIds_0: 
+  switchLocalCommunicationIds_1: 
+  switchLocalCommunicationIds_2: 
+  switchLocalCommunicationIds_3: 
+  switchLocalCommunicationIds_4: 
+  switchLocalCommunicationIds_5: 
+  switchLocalCommunicationIds_6: 
+  switchLocalCommunicationIds_7: 
+  switchParentalControl: 0
+  switchAllowsScreenshot: 1
+  switchAllowsVideoCapturing: 1
+  switchAllowsRuntimeAddOnContentInstall: 0
+  switchDataLossConfirmation: 0
+  switchUserAccountLockEnabled: 0
+  switchSystemResourceMemory: 16777216
+  switchSupportedNpadStyles: 22
+  switchNativeFsCacheSize: 32
+  switchIsHoldTypeHorizontal: 0
+  switchSupportedNpadCount: 8
+  switchEnableTouchScreen: 1
+  switchSocketConfigEnabled: 0
+  switchTcpInitialSendBufferSize: 32
+  switchTcpInitialReceiveBufferSize: 64
+  switchTcpAutoSendBufferSizeMax: 256
+  switchTcpAutoReceiveBufferSizeMax: 256
+  switchUdpSendBufferSize: 9
+  switchUdpReceiveBufferSize: 42
+  switchSocketBufferEfficiency: 4
+  switchSocketInitializeEnabled: 1
+  switchNetworkInterfaceManagerInitializeEnabled: 1
+  switchDisableHTCSPlayerConnection: 0
+  switchUseNewStyleFilepaths: 0
+  switchUseLegacyFmodPriorities: 0
+  switchUseMicroSleepForYield: 1
+  switchEnableRamDiskSupport: 0
+  switchMicroSleepForYieldTime: 25
+  switchRamDiskSpaceSize: 12
+  switchUpgradedPlayerSettingsToNMETA: 0
+  switchCaStoreSource: 0
+  switchCaStoreFilePath: 
+  switchStorageMode: 0
+  switchStorageMounts: []
+  switchPersistentDataPathMountName: 
+  switchTemporaryCachePathMountName: 
+  ps4NPAgeRating: 12
+  ps4NPTitleSecret: 
+  ps4NPTrophyPackPath: 
+  ps4ParentalLevel: 11
+  ps4ContentID: ED1633-NPXX51362_00-0000000000000000
+  ps4Category: 0
+  ps4MasterVersion: 01.00
+  ps4AppVersion: 01.00
+  ps4AppType: 0
+  ps4ParamSfxPath: 
+  ps4VideoOutPixelFormat: 0
+  ps4VideoOutInitialWidth: 1920
+  ps4VideoOutBaseModeInitialWidth: 1920
+  ps4VideoOutReprojectionRate: 60
+  ps4PronunciationXMLPath: 
+  ps4PronunciationSIGPath: 
+  ps4BackgroundImagePath: 
+  ps4StartupImagePath: 
+  ps4StartupImagesFolder: 
+  ps4IconImagesFolder: 
+  ps4SaveDataImagePath: 
+  ps4SdkOverride: 
+  ps4BGMPath: 
+  ps4ShareFilePath: 
+  ps4ShareOverlayImagePath: 
+  ps4PrivacyGuardImagePath: 
+  ps4ExtraSceSysFile: 
+  ps4NPtitleDatPath: 
+  ps4RemotePlayKeyAssignment: -1
+  ps4RemotePlayKeyMappingDir: 
+  ps4PlayTogetherPlayerCount: 0
+  ps4EnterButtonAssignment: 2
+  ps4ApplicationParam1: 0
+  ps4ApplicationParam2: 0
+  ps4ApplicationParam3: 0
+  ps4ApplicationParam4: 0
+  ps4DownloadDataSize: 0
+  ps4GarlicHeapSize: 2048
+  ps4ProGarlicHeapSize: 2560
+  playerPrefsMaxSize: 32768
+  ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
+  ps4pnSessions: 1
+  ps4pnPresence: 1
+  ps4pnFriends: 1
+  ps4pnGameCustomData: 1
+  playerPrefsSupport: 0
+  enableApplicationExit: 0
+  resetTempFolder: 1
+  restrictedAudioUsageRights: 0
+  ps4UseResolutionFallback: 0
+  ps4ReprojectionSupport: 0
+  ps4UseAudio3dBackend: 0
+  ps4UseLowGarlicFragmentationMode: 1
+  ps4SocialScreenEnabled: 0
+  ps4ScriptOptimizationLevel: 2
+  ps4Audio3dVirtualSpeakerCount: 14
+  ps4attribCpuUsage: 0
+  ps4PatchPkgPath: 
+  ps4PatchLatestPkgPath: 
+  ps4PatchChangeinfoPath: 
+  ps4PatchDayOne: 0
+  ps4attribUserManagement: 0
+  ps4attribMoveSupport: 0
+  ps4attrib3DSupport: 0
+  ps4attribShareSupport: 0
+  ps4attribExclusiveVR: 0
+  ps4disableAutoHideSplash: 0
+  ps4videoRecordingFeaturesUsed: 0
+  ps4contentSearchFeaturesUsed: 0
+  ps4CompatibilityPS5: 0
+  ps4AllowPS5Detection: 0
+  ps4GPU800MHz: 1
+  ps4attribEyeToEyeDistanceSettingVR: 0
+  ps4IncludedModules: []
+  ps4attribVROutputEnabled: 0
+  monoEnv: 
+  splashScreenBackgroundSourceLandscape: {fileID: 0}
+  splashScreenBackgroundSourcePortrait: {fileID: 0}
+  blurSplashScreenBackground: 1
+  spritePackerPolicy: 
+  webGLMemorySize: 32
+  webGLExceptionSupport: 1
+  webGLNameFilesAsHashes: 0
+  webGLShowDiagnostics: 0
+  webGLDataCaching: 1
+  webGLDebugSymbols: 0
+  webGLEmscriptenArgs: 
+  webGLModulesDirectory: 
+  webGLTemplate: APPLICATION:Default
+  webGLAnalyzeBuildSize: 0
+  webGLUseEmbeddedResources: 0
+  webGLCompressionFormat: 0
+  webGLWasmArithmeticExceptions: 0
+  webGLLinkerTarget: 1
+  webGLThreadsSupport: 0
+  webGLDecompressionFallback: 0
+  webGLInitialMemorySize: 32
+  webGLMaximumMemorySize: 2048
+  webGLMemoryGrowthMode: 2
+  webGLMemoryLinearGrowthStep: 16
+  webGLMemoryGeometricGrowthStep: 0.2
+  webGLMemoryGeometricGrowthCap: 96
+  webGLPowerPreference: 2
+  webGLWebAssemblyTable: 0
+  webGLWebAssemblyBigInt: 0
+  webGLCloseOnQuit: 0
+  webWasm2023: 1
+  webEnableSubmoduleStrippingCompatibility: 0
+  scriptingDefineSymbols:
+    Android: OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;SENTIS_ANALYTICS_ENABLED;APP_UI_EDITOR_ONLY
+    Standalone: OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
+  additionalCompilerArguments: {}
+  platformArchitecture: {}
+  scriptingBackend:
+    Android: 1
+  il2cppCompilerConfiguration: {}
+  il2cppCodeGeneration: {}
+  il2cppLTOMode: {}
+  il2cppStacktraceInformation: {}
+  managedStrippingLevel: {}
+  incrementalIl2cppBuild: {}
+  suppressCommonWarnings: 1
+  allowUnsafeCode: 0
+  useDeterministicCompilation: 1
+  additionalIl2CppArgs: 
+  scriptingRuntimeVersion: 1
+  gcIncremental: 1
+  gcWBarrierValidation: 0
+  managedCodeVariant: {}
+  apiCompatibilityLevelPerPlatform: {}
+  editorAssembliesCompatibilityLevel: 1
+  m_RenderingPath: 1
+  m_MobileRenderingPath: 1
+  windowsCopyVCRuntime: 1
+  metroPackageName: GrabTheCubeDropTheCube
+  metroPackageVersion: 
+  metroCertificatePath: 
+  metroCertificatePassword: 
+  metroCertificateSubject: 
+  metroCertificateIssuer: 
+  metroCertificateNotAfter: 0000000000000000
+  metroApplicationDescription: GrabTheCubeDropTheCube
+  wsaImages: {}
+  metroTileShortName: 
+  metroTileShowName: 0
+  metroMediumTileShowName: 0
+  metroLargeTileShowName: 0
+  metroWideTileShowName: 0
+  metroSupportStreamingInstall: 0
+  metroLastRequiredScene: 0
+  metroDefaultTileSize: 1
+  metroTileForegroundText: 2
+  metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
+  metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628, a: 1}
+  metroSplashScreenUseBackgroundColor: 0
+  syncCapabilities: 0
+  platformCapabilities: {}
+  metroTargetDeviceFamilies: {}
+  metroFTAName: 
+  metroFTAFileTypes: []
+  metroProtocolName: 
+  vcxProjDefaultLanguage: 
+  XboxOneProductId: 
+  XboxOneUpdateKey: 
+  XboxOneSandboxId: 
+  XboxOneContentId: 
+  XboxOneTitleId: 
+  XboxOneSCId: 
+  XboxOneGameOsOverridePath: 
+  XboxOnePackagingOverridePath: 
+  XboxOneAppManifestOverridePath: 
+  XboxOneVersion: 1.0.0.0
+  XboxOnePackageEncryption: 0
+  XboxOnePackageUpdateGranularity: 2
+  XboxOneDescription: 
+  XboxOneLanguage:
+  - enus
+  XboxOneCapability: []
+  XboxOneGameRating: {}
+  XboxOneIsContentPackage: 0
+  XboxOneEnhancedXboxCompatibilityMode: 0
+  XboxOneEnableGPUVariability: 1
+  XboxOneSockets: {}
+  XboxOneSplashScreen: {fileID: 0}
+  XboxOneAllowedProductIds: []
+  XboxOnePersistentLocalStorageSize: 0
+  XboxOneXTitleMemory: 8
+  XboxOneOverrideIdentityName: 
+  XboxOneOverrideIdentityPublisher: 
+  cloudServicesEnabled: {}
+  luminIcon:
+    m_Name: 
+    m_ModelFolderPath: 
+    m_PortalFolderPath: 
+  luminCert:
+    m_CertPath: 
+    m_SignPackage: 1
+  luminIsChannelApp: 0
+  luminVersion:
+    m_VersionCode: 1
+    m_VersionName: 
+  hmiPlayerDataPath: 
+  hmiForceSRGBBlit: 1
+  embeddedLinuxEnableGamepadInput: 0
+  hmiCpuConfiguration: 
+  hmiLogStartupTiming: 0
+  qnxGraphicConfPath: 
+  apiCompatibilityLevel: 6
+  captureStartupLogs: {}
+  activeInputHandler: 1
+  windowsGamepadBackendHint: 0
+  enableDirectStorage: 0
+  cloudProjectId: 
+  framebufferDepthMemorylessMode: 0
+  qualitySettingsNames: []
+  projectName: 
+  organizationId: 
+  cloudEnabled: 0
+  legacyClampBlendShapeWeights: 0
+  hmiLoadingImage: {fileID: 0}
+  platformRequiresReadableAssets: 0
+  virtualTexturingSupportEnabled: 0
+  insecureHttpOption: 0
+  androidVulkanDenyFilterList: []
+  androidVulkanAllowFilterList: []
+  androidVulkanDeviceFilterListAsset: {fileID: 0}
+  d3d12DeviceFilterListAsset: {fileID: 0}
+  webGPUDeviceFilterListAsset: {fileID: 0}
+  allowedHttpConnections: 3
 --- !u!114 &-6916157819911899139
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -63,6 +1071,7 @@ MonoBehaviour:
       - name: META_QUEST_ORTHO_PROJ
         keepInBuild: 0
       variantGenerationMode: 0
+    fastBuildMode: 0
     defines:
     - UNITY_PLATFORM_META_QUEST 1
     numInternalDefines: 1
@@ -85,970 +1094,13 @@ MonoBehaviour:
   m_PlatformId: 80657fe557de4d17822398b3a01b8c9e
   m_PlatformBuildProfile:
     rid: 9032853398871605325
-  m_ActivePlatformGuid: 
-  m_AdditionalPlatformBuildSettings: []
+  m_SelectedPlatformGuid: 
   m_OverrideGlobalSceneList: 0
   m_Scenes: []
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
-    m_Settings:
-    - line: '| PlayerSettings:'
-    - line: '|   m_ObjectHideFlags: 0'
-    - line: '|   serializedVersion: 30'
-    - line: '|   productGUID: 1fabc8fc0810b0f3093926daacad20ff'
-    - line: '|   AndroidProfiler: 0'
-    - line: '|   AndroidFilterTouchesWhenObscured: 0'
-    - line: '|   AndroidEnableSustainedPerformanceMode: 0'
-    - line: '|   defaultScreenOrientation: 3'
-    - line: '|   targetDevice: 2'
-    - line: '|   useOnDemandResources: 0'
-    - line: '|   accelerometerFrequency: 60'
-    - line: '|   companyName: Stuff By Ellis'
-    - line: '|   productName: GrabTheCubeDropTheCube'
-    - line: '|   defaultCursor: {instanceID: 0}'
-    - line: '|   cursorHotspot: {x: 0, y: 0}'
-    - line: '|   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}'
-    - line: '|   m_ShowUnitySplashScreen: 1'
-    - line: '|   m_ShowUnitySplashLogo: 1'
-    - line: '|   m_SplashScreenOverlayOpacity: 1'
-    - line: '|   m_SplashScreenAnimation: 1'
-    - line: '|   m_SplashScreenLogoStyle: 1'
-    - line: '|   m_SplashScreenDrawMode: 0'
-    - line: '|   m_SplashScreenBackgroundAnimationZoom: 1'
-    - line: '|   m_SplashScreenLogoAnimationZoom: 1'
-    - line: '|   m_SplashScreenBackgroundLandscapeAspect: 1'
-    - line: '|   m_SplashScreenBackgroundPortraitAspect: 1'
-    - line: '|   m_SplashScreenBackgroundLandscapeUvs:'
-    - line: '|     serializedVersion: 2'
-    - line: '|     x: 0'
-    - line: '|     y: 0'
-    - line: '|     width: 1'
-    - line: '|     height: 1'
-    - line: '|   m_SplashScreenBackgroundPortraitUvs:'
-    - line: '|     serializedVersion: 2'
-    - line: '|     x: 0'
-    - line: '|     y: 0'
-    - line: '|     width: 1'
-    - line: '|     height: 1'
-    - line: '|   m_SplashScreenLogos: []'
-    - line: '|   m_VirtualRealitySplashScreen: {instanceID: 0}'
-    - line: '|   defaultScreenWidth: 1024'
-    - line: '|   defaultScreenHeight: 768'
-    - line: '|   defaultScreenWidthWeb: 960'
-    - line: '|   defaultScreenHeightWeb: 600'
-    - line: '|   m_StereoRenderingPath: 2'
-    - line: '|   m_ActiveColorSpace: 1'
-    - line: '|   unsupportedMSAAFallback: 0'
-    - line: '|   m_SpriteBatchMaxVertexCount: 65535'
-    - line: '|   m_SpriteBatchVertexThreshold: 300'
-    - line: '|   m_MTRendering: 1'
-    - line: '|   mipStripping: 0'
-    - line: '|   numberOfMipsStripped: 0'
-    - line: '|   numberOfMipsStrippedPerMipmapLimitGroup: {}'
-    - line: '|   m_StackTraceTypes: 010000000100000001000000010000000100000001000000i'
-    - line: '|   iosShowActivityIndicatorOnLoading: -1'
-    - line: '|   androidShowActivityIndicatorOnLoading: -1'
-    - line: '|   iosUseCustomAppBackgroundBehavior: 0'
-    - line: '|   allowedAutorotateToPortrait: 1'
-    - line: '|   allowedAutorotateToPortraitUpsideDown: 1'
-    - line: '|   allowedAutorotateToLandscapeRight: 1'
-    - line: '|   allowedAutorotateToLandscapeLeft: 1'
-    - line: '|   useOSAutorotation: 1'
-    - line: '|   use32BitDisplayBuffer: 1'
-    - line: '|   preserveFramebufferAlpha: 0'
-    - line: '|   adjustIOSFPSUsingThermalState: 1'
-    - line: '|   thermalStateSeriousIOSFPS: 30'
-    - line: '|   thermalStateCriticalIOSFPS: 15'
-    - line: '|   disableDepthAndStencilBuffers: 0'
-    - line: '|   androidStartInFullscreen: 1'
-    - line: '|   androidRenderOutsideSafeArea: 1'
-    - line: '|   androidUseSwappy: 0'
-    - line: '|   androidRequestedVisibleInsets: 0'
-    - line: '|   androidSystemBarsBehavior: 2'
-    - line: '|   androidDisplayOptions: 1'
-    - line: '|   androidBlitType: 0'
-    - line: '|   androidResizeableActivity: 1'
-    - line: '|   androidDefaultWindowWidth: 1920'
-    - line: '|   androidDefaultWindowHeight: 1080'
-    - line: '|   androidMinimumWindowWidth: 400'
-    - line: '|   androidMinimumWindowHeight: 300'
-    - line: '|   androidFullscreenMode: 1'
-    - line: '|   androidAutoRotationBehavior: 1'
-    - line: '|   androidPredictiveBackSupport: 1'
-    - line: '|   androidApplicationEntry: 2'
-    - line: '|   defaultIsNativeResolution: 1'
-    - line: '|   macRetinaSupport: 1'
-    - line: '|   runInBackground: 1'
-    - line: '|   callOnDisableOnAssetBundleUnload: 1'
-    - line: '|   muteOtherAudioSources: 0'
-    - line: '|   Prepare IOS For Recording: 0'
-    - line: '|   Force IOS Speakers When Recording: 0'
-    - line: '|   audioSpatialExperience: 0'
-    - line: '|   deferSystemGesturesMode: 0'
-    - line: '|   hideHomeButton: 0'
-    - line: '|   submitAnalytics: 1'
-    - line: '|   usePlayerLog: 1'
-    - line: '|   dedicatedServerOptimizations: 1'
-    - line: '|   bakeCollisionMeshes: 0'
-    - line: '|   forceSingleInstance: 0'
-    - line: '|   useFlipModelSwapchain: 1'
-    - line: '|   resizableWindow: 0'
-    - line: '|   useMacAppStoreValidation: 0'
-    - line: '|   macAppStoreCategory: public.app-category.games'
-    - line: '|   gpuSkinning: 1'
-    - line: '|   meshDeformation: 2'
-    - line: '|   xboxPIXTextureCapture: 0'
-    - line: '|   xboxEnableAvatar: 0'
-    - line: '|   xboxEnableKinect: 0'
-    - line: '|   xboxEnableKinectAutoTracking: 0'
-    - line: '|   xboxEnableFitness: 0'
-    - line: '|   visibleInBackground: 1'
-    - line: '|   allowFullscreenSwitch: 1'
-    - line: '|   fullscreenMode: 1'
-    - line: '|   xboxSpeechDB: 0'
-    - line: '|   xboxEnableHeadOrientation: 0'
-    - line: '|   xboxEnableGuest: 0'
-    - line: '|   xboxEnablePIXSampling: 0'
-    - line: '|   metalFramebufferOnly: 0'
-    - line: '|   metalUseMetalDisplayLink: 0'
-    - line: '|   xboxOneResolution: 0'
-    - line: '|   xboxOneSResolution: 0'
-    - line: '|   xboxOneXResolution: 3'
-    - line: '|   xboxOneMonoLoggingLevel: 0'
-    - line: '|   xboxOneLoggingLevel: 1'
-    - line: '|   xboxOneDisableEsram: 0'
-    - line: '|   xboxOneEnableTypeOptimization: 0'
-    - line: '|   xboxOnePresentImmediateThreshold: 0'
-    - line: '|   switchQueueCommandMemory: 1048576'
-    - line: '|   switchQueueControlMemory: 16384'
-    - line: '|   switchQueueComputeMemory: 262144'
-    - line: '|   switchNVNShaderPoolsGranularity: 33554432'
-    - line: '|   switchNVNDefaultPoolsGranularity: 16777216'
-    - line: '|   switchNVNOtherPoolsGranularity: 16777216'
-    - line: '|   switchGpuScratchPoolGranularity: 2097152'
-    - line: '|   switchAllowGpuScratchShrinking: 0'
-    - line: '|   switchNVNMaxPublicTextureIDCount: 0'
-    - line: '|   switchNVNMaxPublicSamplerIDCount: 0'
-    - line: '|   switchMaxWorkerMultiple: 8'
-    - line: '|   switchNVNGraphicsFirmwareMemory: 32'
-    - line: '|   switchGraphicsJobsSyncAfterKick: 1'
-    - line: '|   vulkanNumSwapchainBuffers: 3'
-    - line: '|   vulkanEnableSetSRGBWrite: 0'
-    - line: '|   vulkanEnablePreTransform: 1'
-    - line: '|   vulkanEnableLateAcquireNextImage: 0'
-    - line: '|   vulkanEnableCommandBufferRecycling: 1'
-    - line: '|   loadStoreDebugModeEnabled: 0'
-    - line: '|   visionOSBundleVersion: 1.0'
-    - line: '|   tvOSBundleVersion: 1.0'
-    - line: '|   bundleVersion: 0.1.0'
-    - line: '|   preloadedAssets:'
-    - line: '|   - {fileID: 11400000, guid: 13bfa92bd0ba0af799460bd7d62235cc, type: 2}'
-    - line: '|   metroInputSource: 0'
-    - line: '|   wsaTransparentSwapchain: 0'
-    - line: '|   xboxOneDisableKinectGpuReservation: 1'
-    - line: '|   xboxOneEnable7thCore: 1'
-    - line: '|   vrSettings:'
-    - line: '|     enable360StereoCapture: 0'
-    - line: '|   enableFrameTimingStats: 0'
-    - line: '|   enableOpenGLProfilerGPURecorders: 1'
-    - line: '|   allowHDRDisplaySupport: 0'
-    - line: '|   useHDRDisplay: 0'
-    - line: '|   hdrBitDepth: 0'
-    - line: '|   m_ColorGamuts: 00000000i'
-    - line: '|   targetPixelDensity: 30'
-    - line: '|   resolutionScalingMode: 0'
-    - line: '|   resetResolutionOnWindowResize: 0'
-    - line: '|   androidSupportedAspectRatio: 1'
-    - line: '|   androidMaxAspectRatio: 2.4'
-    - line: '|   androidMinAspectRatio: 1'
-    - line: '|   applicationIdentifier:'
-    - line: '|     Android: com.UnityTechnologies.com.unity.template.urpblank'
-    - line: '|     Standalone: com.Unity-Technologies.com.unity.template.urp-blank'
-    - line: '|     iPhone: com.Unity-Technologies.com.unity.template.urp-blank'
-    - line: '|   buildNumber:'
-    - line: '|     Standalone: 0'
-    - line: '|     VisionOS: 0'
-    - line: '|     iPhone: 0'
-    - line: '|     tvOS: 0'
-    - line: '|   overrideDefaultApplicationIdentifier: 1'
-    - line: '|   AndroidBundleVersionCode: 1'
-    - line: '|   AndroidMinSdkVersion: 34'
-    - line: '|   AndroidTargetSdkVersion: 34'
-    - line: '|   AndroidPreferredInstallLocation: 0'
-    - line: '|   AndroidPreferredDataLocation: 1'
-    - line: '|   aotOptions: '
-    - line: '|   stripEngineCode: 0'
-    - line: '|   iPhoneStrippingLevel: 0'
-    - line: '|   iPhoneScriptCallOptimization: 0'
-    - line: '|   ForceInternetPermission: 0'
-    - line: '|   ForceSDCardPermission: 0'
-    - line: '|   CreateWallpaper: 0'
-    - line: '|   androidSplitApplicationBinary: 0'
-    - line: '|   keepLoadedShadersAlive: 0'
-    - line: '|   StripUnusedMeshComponents: 0'
-    - line: '|   strictShaderVariantMatching: 0'
-    - line: '|   VertexChannelCompressionMask: 4054'
-    - line: '|   iPhoneSdkVersion: 988'
-    - line: '|   iOSSimulatorArchitecture: 0'
-    - line: '|   iOSTargetOSVersionString: 15.0'
-    - line: '|   tvOSSdkVersion: 0'
-    - line: '|   tvOSSimulatorArchitecture: 0'
-    - line: '|   tvOSRequireExtendedGameController: 0'
-    - line: '|   tvOSTargetOSVersionString: 15.0'
-    - line: '|   VisionOSSdkVersion: 0'
-    - line: '|   VisionOSTargetOSVersionString: 1.0'
-    - line: '|   xcodeProjectType: 0'
-    - line: '|   uIPrerenderedIcon: 0'
-    - line: '|   uIRequiresPersistentWiFi: 0'
-    - line: '|   uIRequiresFullScreen: 1'
-    - line: '|   uIStatusBarHidden: 1'
-    - line: '|   uIExitOnSuspend: 0'
-    - line: '|   uIStatusBarStyle: 0'
-    - line: '|   appleTVSplashScreen: {instanceID: 0}'
-    - line: '|   appleTVSplashScreen2x: {instanceID: 0}'
-    - line: '|   tvOSSmallIconLayers: []'
-    - line: '|   tvOSSmallIconLayers2x: []'
-    - line: '|   tvOSLargeIconLayers: []'
-    - line: '|   tvOSLargeIconLayers2x: []'
-    - line: '|   tvOSTopShelfImageLayers: []'
-    - line: '|   tvOSTopShelfImageLayers2x: []'
-    - line: '|   tvOSTopShelfImageWideLayers: []'
-    - line: '|   tvOSTopShelfImageWideLayers2x: []'
-    - line: '|   iOSLaunchScreenType: 0'
-    - line: '|   iOSLaunchScreenPortrait: {instanceID: 0}'
-    - line: '|   iOSLaunchScreenLandscape: {instanceID: 0}'
-    - line: '|   iOSLaunchScreenBackgroundColor:'
-    - line: '|     serializedVersion: 2'
-    - line: '|     rgba: 0'
-    - line: '|   iOSLaunchScreenFillPct: 100'
-    - line: '|   iOSLaunchScreenSize: 100'
-    - line: '|   iOSLaunchScreeniPadType: 0'
-    - line: '|   iOSLaunchScreeniPadImage: {instanceID: 0}'
-    - line: '|   iOSLaunchScreeniPadBackgroundColor:'
-    - line: '|     serializedVersion: 2'
-    - line: '|     rgba: 0'
-    - line: '|   iOSLaunchScreeniPadFillPct: 100'
-    - line: '|   iOSLaunchScreeniPadSize: 100'
-    - line: '|   iOSLaunchScreenCustomStoryboardPath: '
-    - line: '|   iOSLaunchScreeniPadCustomStoryboardPath: '
-    - line: '|   iOSDeviceRequirements: []'
-    - line: '|   iOSURLSchemes: []'
-    - line: '|   macOSURLSchemes: []'
-    - line: '|   iOSBackgroundModes: 0'
-    - line: '|   iOSMetalForceHardShadows: 0'
-    - line: '|   metalEditorSupport: 1'
-    - line: '|   metalAPIValidation: 1'
-    - line: '|   metalCompileShaderBinary: 0'
-    - line: '|   iOSRenderExtraFrameOnPause: 0'
-    - line: '|   iosCopyPluginsCodeInsteadOfSymlink: 0'
-    - line: '|   appleDeveloperTeamID: '
-    - line: '|   iOSManualSigningProvisioningProfileID: '
-    - line: '|   tvOSManualSigningProvisioningProfileID: '
-    - line: '|   VisionOSManualSigningProvisioningProfileID: '
-    - line: '|   iOSManualSigningProvisioningProfileType: 0'
-    - line: '|   tvOSManualSigningProvisioningProfileType: 0'
-    - line: '|   VisionOSManualSigningProvisioningProfileType: 0'
-    - line: '|   appleEnableAutomaticSigning: 0'
-    - line: '|   iOSRequireARKit: 0'
-    - line: '|   iOSAutomaticallyDetectAndAddCapabilities: 1'
-    - line: '|   appleEnableProMotion: 0'
-    - line: '|   shaderPrecisionModel: 0'
-    - line: '|   clonedFromGUID: 3c72c65a16f0acb438eed22b8b16c24a'
-    - line: '|   templatePackageId: com.unity.template.urp-blank@17.2.5'
-    - line: '|   templateDefaultScene: Assets/Scenes/SampleScene.unity'
-    - line: '|   useCustomMainManifest: 0'
-    - line: '|   useCustomLauncherManifest: 0'
-    - line: '|   useCustomMainGradleTemplate: 0'
-    - line: '|   useCustomLauncherGradleManifest: 0'
-    - line: '|   useCustomBaseGradleTemplate: 0'
-    - line: '|   useCustomGradlePropertiesTemplate: 0'
-    - line: '|   useCustomGradleSettingsTemplate: 0'
-    - line: '|   useCustomProguardFile: 0'
-    - line: '|   AndroidTargetArchitectures: 2'
-    - line: '|   AndroidSplashScreenScale: 0'
-    - line: '|   androidSplashScreen: {instanceID: 0}'
-    - line: '|   AndroidKeystoreName: '
-    - line: '|   AndroidKeyaliasName: '
-    - line: '|   AndroidEnableArmv9SecurityFeatures: 0'
-    - line: '|   AndroidEnableArm64MTE: 0'
-    - line: '|   AndroidBuildApkPerCpuArchitecture: 0'
-    - line: '|   AndroidTVCompatibility: 0'
-    - line: '|   AndroidIsGame: 1'
-    - line: '|   androidAppCategory: 3'
-    - line: '|   useAndroidAppCategory: 1'
-    - line: '|   androidAppCategoryOther: '
-    - line: '|   AndroidEnableTango: 0'
-    - line: '|   androidEnableBanner: 1'
-    - line: '|   androidUseLowAccuracyLocation: 0'
-    - line: '|   androidUseCustomKeystore: 0'
-    - line: '|   m_AndroidBanners:'
-    - line: '|   - width: 320'
-    - line: '|     height: 180'
-    - line: '|     banner: {instanceID: 0}'
-    - line: '|   androidGamepadSupportLevel: 0'
-    - line: '|   AndroidMinifyRelease: 0'
-    - line: '|   AndroidMinifyDebug: 0'
-    - line: '|   AndroidValidateAppBundleSize: 1'
-    - line: '|   AndroidAppBundleSizeToValidate: 150'
-    - line: '|   AndroidReportGooglePlayAppDependencies: 1'
-    - line: '|   androidSymbolsSizeThreshold: 800'
-    - line: '|   m_BuildTargetIcons: []'
-    - line: '|   m_BuildTargetPlatformIcons:'
-    - line: '|   - m_BuildTarget: iPhone'
-    - line: '|     m_Icons:'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 180'
-    - line: '|       m_Height: 180'
-    - line: '|       m_Kind: 0'
-    - line: '|       m_SubKind: iPhone'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 120'
-    - line: '|       m_Height: 120'
-    - line: '|       m_Kind: 0'
-    - line: '|       m_SubKind: iPhone'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 167'
-    - line: '|       m_Height: 167'
-    - line: '|       m_Kind: 0'
-    - line: '|       m_SubKind: iPad'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 152'
-    - line: '|       m_Height: 152'
-    - line: '|       m_Kind: 0'
-    - line: '|       m_SubKind: iPad'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 76'
-    - line: '|       m_Height: 76'
-    - line: '|       m_Kind: 0'
-    - line: '|       m_SubKind: iPad'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 120'
-    - line: '|       m_Height: 120'
-    - line: '|       m_Kind: 3'
-    - line: '|       m_SubKind: iPhone'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 80'
-    - line: '|       m_Height: 80'
-    - line: '|       m_Kind: 3'
-    - line: '|       m_SubKind: iPhone'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 80'
-    - line: '|       m_Height: 80'
-    - line: '|       m_Kind: 3'
-    - line: '|       m_SubKind: iPad'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 40'
-    - line: '|       m_Height: 40'
-    - line: '|       m_Kind: 3'
-    - line: '|       m_SubKind: iPad'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 87'
-    - line: '|       m_Height: 87'
-    - line: '|       m_Kind: 1'
-    - line: '|       m_SubKind: iPhone'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 58'
-    - line: '|       m_Height: 58'
-    - line: '|       m_Kind: 1'
-    - line: '|       m_SubKind: iPhone'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 29'
-    - line: '|       m_Height: 29'
-    - line: '|       m_Kind: 1'
-    - line: '|       m_SubKind: iPhone'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 58'
-    - line: '|       m_Height: 58'
-    - line: '|       m_Kind: 1'
-    - line: '|       m_SubKind: iPad'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 29'
-    - line: '|       m_Height: 29'
-    - line: '|       m_Kind: 1'
-    - line: '|       m_SubKind: iPad'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 60'
-    - line: '|       m_Height: 60'
-    - line: '|       m_Kind: 2'
-    - line: '|       m_SubKind: iPhone'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 40'
-    - line: '|       m_Height: 40'
-    - line: '|       m_Kind: 2'
-    - line: '|       m_SubKind: iPhone'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 40'
-    - line: '|       m_Height: 40'
-    - line: '|       m_Kind: 2'
-    - line: '|       m_SubKind: iPad'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 20'
-    - line: '|       m_Height: 20'
-    - line: '|       m_Kind: 2'
-    - line: '|       m_SubKind: iPad'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 1024'
-    - line: '|       m_Height: 1024'
-    - line: '|       m_Kind: 4'
-    - line: '|       m_SubKind: App Store'
-    - line: '|   - m_BuildTarget: Android'
-    - line: '|     m_Icons:'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 432'
-    - line: '|       m_Height: 432'
-    - line: '|       m_Kind: 2'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 324'
-    - line: '|       m_Height: 324'
-    - line: '|       m_Kind: 2'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 216'
-    - line: '|       m_Height: 216'
-    - line: '|       m_Kind: 2'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 162'
-    - line: '|       m_Height: 162'
-    - line: '|       m_Kind: 2'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 108'
-    - line: '|       m_Height: 108'
-    - line: '|       m_Kind: 2'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 81'
-    - line: '|       m_Height: 81'
-    - line: '|       m_Kind: 2'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 192'
-    - line: '|       m_Height: 192'
-    - line: '|       m_Kind: 1'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 144'
-    - line: '|       m_Height: 144'
-    - line: '|       m_Kind: 1'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 96'
-    - line: '|       m_Height: 96'
-    - line: '|       m_Kind: 1'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 72'
-    - line: '|       m_Height: 72'
-    - line: '|       m_Kind: 1'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 48'
-    - line: '|       m_Height: 48'
-    - line: '|       m_Kind: 1'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 36'
-    - line: '|       m_Height: 36'
-    - line: '|       m_Kind: 1'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 192'
-    - line: '|       m_Height: 192'
-    - line: '|       m_Kind: 0'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 144'
-    - line: '|       m_Height: 144'
-    - line: '|       m_Kind: 0'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 96'
-    - line: '|       m_Height: 96'
-    - line: '|       m_Kind: 0'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 72'
-    - line: '|       m_Height: 72'
-    - line: '|       m_Kind: 0'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 48'
-    - line: '|       m_Height: 48'
-    - line: '|       m_Kind: 0'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 36'
-    - line: '|       m_Height: 36'
-    - line: '|       m_Kind: 0'
-    - line: '|       m_SubKind: '
-    - line: '|   - m_BuildTarget: tvOS'
-    - line: '|     m_Icons:'
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 1280'
-    - line: '|       m_Height: 768'
-    - line: '|       m_Kind: 0'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 800'
-    - line: '|       m_Height: 480'
-    - line: '|       m_Kind: 0'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 400'
-    - line: '|       m_Height: 240'
-    - line: '|       m_Kind: 0'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 4640'
-    - line: '|       m_Height: 1440'
-    - line: '|       m_Kind: 1'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 2320'
-    - line: '|       m_Height: 720'
-    - line: '|       m_Kind: 1'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 3840'
-    - line: '|       m_Height: 1440'
-    - line: '|       m_Kind: 1'
-    - line: '|       m_SubKind: '
-    - line: '|     - m_Textures: []'
-    - line: '|       m_Width: 1920'
-    - line: '|       m_Height: 720'
-    - line: '|       m_Kind: 1'
-    - line: '|       m_SubKind: '
-    - line: '|   m_BuildTargetBatching: []'
-    - line: '|   m_BuildTargetShaderSettings: []'
-    - line: '|   m_BuildTargetGraphicsJobs:'
-    - line: '|   - m_BuildTarget: AndroidPlayer'
-    - line: '|     m_GraphicsJobs: 1'
-    - line: '|   m_BuildTargetGraphicsJobMode:'
-    - line: '|   - m_BuildTarget: AndroidPlayer'
-    - line: '|     m_GraphicsJobMode: 1'
-    - line: '|   m_BuildTargetGraphicsAPIs:'
-    - line: '|   - m_BuildTarget: iOSSupport'
-    - line: '|     m_APIs: 10000000i'
-    - line: '|     m_Automatic: 1'
-    - line: '|   - m_BuildTarget: AndroidPlayer'
-    - line: '|     m_APIs: 15000000i'
-    - line: '|     m_Automatic: 0'
-    - line: '|   m_DefaultShaderChunkSizeInMB: 16'
-    - line: '|   m_DefaultShaderChunkCount: 0'
-    - line: '|   openGLRequireES31: 0'
-    - line: '|   openGLRequireES31AEP: 0'
-    - line: '|   openGLRequireES32: 0'
-    - line: '|   m_TemplateCustomTags: {}'
-    - line: '|   mobileMTRendering:'
-    - line: '|     Android: 1'
-    - line: '|     iPhone: 1'
-    - line: '|     tvOS: 1'
-    - line: '|   m_BuildTargetGroupLightmapEncodingQuality:'
-    - line: '|   - serializedVersion: 2'
-    - line: '|     m_BuildTarget: Android'
-    - line: '|     m_EncodingQuality: 1'
-    - line: '|   m_BuildTargetGroupHDRCubemapEncodingQuality: []'
-    - line: '|   m_BuildTargetGroupLightmapSettings: []'
-    - line: '|   m_BuildTargetGroupLoadStoreDebugModeSettings: []'
-    - line: '|   m_BuildTargetNormalMapEncoding:'
-    - line: '|   - m_BuildTarget: Android'
-    - line: '|     m_Encoding: 1'
-    - line: '|   m_BuildTargetDefaultTextureCompressionFormat:'
-    - line: '|   - serializedVersion: 3'
-    - line: '|     m_BuildTarget: Android'
-    - line: '|     m_Formats: 03000000i'
-    - line: '|   playModeTestRunnerEnabled: 0'
-    - line: '|   runPlayModeTestAsEditModeTest: 0'
-    - line: '|   actionOnDotNetUnhandledException: 1'
-    - line: '|   editorGfxJobOverride: 1'
-    - line: '|   enableInternalProfiler: 0'
-    - line: '|   logObjCUncaughtExceptions: 1'
-    - line: '|   enableCrashReportAPI: 0'
-    - line: '|   cameraUsageDescription: '
-    - line: '|   locationUsageDescription: '
-    - line: '|   microphoneUsageDescription: '
-    - line: '|   bluetoothUsageDescription: '
-    - line: '|   macOSTargetOSVersion: 12.0'
-    - line: '|   switchNMETAOverride: '
-    - line: '|   switchNetLibKey: '
-    - line: '|   switchSocketMemoryPoolSize: 6144'
-    - line: '|   switchSocketAllocatorPoolSize: 128'
-    - line: '|   switchSocketConcurrencyLimit: 14'
-    - line: '|   switchScreenResolutionBehavior: 2'
-    - line: '|   switchUseCPUProfiler: 0'
-    - line: '|   switchEnableFileSystemTrace: 0'
-    - line: '|   switchLTOSetting: 0'
-    - line: '|   switchApplicationID: 0x01004b9000490000'
-    - line: '|   switchNSODependencies: '
-    - line: '|   switchCompilerFlags: '
-    - line: '|   switchTitleNames_0: '
-    - line: '|   switchTitleNames_1: '
-    - line: '|   switchTitleNames_2: '
-    - line: '|   switchTitleNames_3: '
-    - line: '|   switchTitleNames_4: '
-    - line: '|   switchTitleNames_5: '
-    - line: '|   switchTitleNames_6: '
-    - line: '|   switchTitleNames_7: '
-    - line: '|   switchTitleNames_8: '
-    - line: '|   switchTitleNames_9: '
-    - line: '|   switchTitleNames_10: '
-    - line: '|   switchTitleNames_11: '
-    - line: '|   switchTitleNames_12: '
-    - line: '|   switchTitleNames_13: '
-    - line: '|   switchTitleNames_14: '
-    - line: '|   switchTitleNames_15: '
-    - line: '|   switchPublisherNames_0: '
-    - line: '|   switchPublisherNames_1: '
-    - line: '|   switchPublisherNames_2: '
-    - line: '|   switchPublisherNames_3: '
-    - line: '|   switchPublisherNames_4: '
-    - line: '|   switchPublisherNames_5: '
-    - line: '|   switchPublisherNames_6: '
-    - line: '|   switchPublisherNames_7: '
-    - line: '|   switchPublisherNames_8: '
-    - line: '|   switchPublisherNames_9: '
-    - line: '|   switchPublisherNames_10: '
-    - line: '|   switchPublisherNames_11: '
-    - line: '|   switchPublisherNames_12: '
-    - line: '|   switchPublisherNames_13: '
-    - line: '|   switchPublisherNames_14: '
-    - line: '|   switchPublisherNames_15: '
-    - line: '|   switchIcons_0: {instanceID: 0}'
-    - line: '|   switchIcons_1: {instanceID: 0}'
-    - line: '|   switchIcons_2: {instanceID: 0}'
-    - line: '|   switchIcons_3: {instanceID: 0}'
-    - line: '|   switchIcons_4: {instanceID: 0}'
-    - line: '|   switchIcons_5: {instanceID: 0}'
-    - line: '|   switchIcons_6: {instanceID: 0}'
-    - line: '|   switchIcons_7: {instanceID: 0}'
-    - line: '|   switchIcons_8: {instanceID: 0}'
-    - line: '|   switchIcons_9: {instanceID: 0}'
-    - line: '|   switchIcons_10: {instanceID: 0}'
-    - line: '|   switchIcons_11: {instanceID: 0}'
-    - line: '|   switchIcons_12: {instanceID: 0}'
-    - line: '|   switchIcons_13: {instanceID: 0}'
-    - line: '|   switchIcons_14: {instanceID: 0}'
-    - line: '|   switchIcons_15: {instanceID: 0}'
-    - line: '|   switchSmallIcons_0: {instanceID: 0}'
-    - line: '|   switchSmallIcons_1: {instanceID: 0}'
-    - line: '|   switchSmallIcons_2: {instanceID: 0}'
-    - line: '|   switchSmallIcons_3: {instanceID: 0}'
-    - line: '|   switchSmallIcons_4: {instanceID: 0}'
-    - line: '|   switchSmallIcons_5: {instanceID: 0}'
-    - line: '|   switchSmallIcons_6: {instanceID: 0}'
-    - line: '|   switchSmallIcons_7: {instanceID: 0}'
-    - line: '|   switchSmallIcons_8: {instanceID: 0}'
-    - line: '|   switchSmallIcons_9: {instanceID: 0}'
-    - line: '|   switchSmallIcons_10: {instanceID: 0}'
-    - line: '|   switchSmallIcons_11: {instanceID: 0}'
-    - line: '|   switchSmallIcons_12: {instanceID: 0}'
-    - line: '|   switchSmallIcons_13: {instanceID: 0}'
-    - line: '|   switchSmallIcons_14: {instanceID: 0}'
-    - line: '|   switchSmallIcons_15: {instanceID: 0}'
-    - line: '|   switchManualHTML: '
-    - line: '|   switchAccessibleURLs: '
-    - line: '|   switchLegalInformation: '
-    - line: '|   switchMainThreadStackSize: 1048576'
-    - line: '|   switchPresenceGroupId: '
-    - line: '|   switchLogoHandling: 0'
-    - line: '|   switchReleaseVersion: 0'
-    - line: '|   switchDisplayVersion: 1.0.0'
-    - line: '|   switchStartupUserAccount: 0'
-    - line: '|   switchSupportedLanguagesMask: 0'
-    - line: '|   switchLogoType: 0'
-    - line: '|   switchApplicationErrorCodeCategory: '
-    - line: '|   switchUserAccountSaveDataSize: 0'
-    - line: '|   switchUserAccountSaveDataJournalSize: 0'
-    - line: '|   switchApplicationAttribute: 0'
-    - line: '|   switchCardSpecSize: -1'
-    - line: '|   switchCardSpecClock: -1'
-    - line: '|   switchRatingsMask: 0'
-    - line: '|   switchRatingsInt_0: 0'
-    - line: '|   switchRatingsInt_1: 0'
-    - line: '|   switchRatingsInt_2: 0'
-    - line: '|   switchRatingsInt_3: 0'
-    - line: '|   switchRatingsInt_4: 0'
-    - line: '|   switchRatingsInt_5: 0'
-    - line: '|   switchRatingsInt_6: 0'
-    - line: '|   switchRatingsInt_7: 0'
-    - line: '|   switchRatingsInt_8: 0'
-    - line: '|   switchRatingsInt_9: 0'
-    - line: '|   switchRatingsInt_10: 0'
-    - line: '|   switchRatingsInt_11: 0'
-    - line: '|   switchRatingsInt_12: 0'
-    - line: '|   switchLocalCommunicationIds_0: '
-    - line: '|   switchLocalCommunicationIds_1: '
-    - line: '|   switchLocalCommunicationIds_2: '
-    - line: '|   switchLocalCommunicationIds_3: '
-    - line: '|   switchLocalCommunicationIds_4: '
-    - line: '|   switchLocalCommunicationIds_5: '
-    - line: '|   switchLocalCommunicationIds_6: '
-    - line: '|   switchLocalCommunicationIds_7: '
-    - line: '|   switchParentalControl: 0'
-    - line: '|   switchAllowsScreenshot: 1'
-    - line: '|   switchAllowsVideoCapturing: 1'
-    - line: '|   switchAllowsRuntimeAddOnContentInstall: 0'
-    - line: '|   switchDataLossConfirmation: 0'
-    - line: '|   switchUserAccountLockEnabled: 0'
-    - line: '|   switchSystemResourceMemory: 16777216'
-    - line: '|   switchSupportedNpadStyles: 22'
-    - line: '|   switchNativeFsCacheSize: 32'
-    - line: '|   switchIsHoldTypeHorizontal: 0'
-    - line: '|   switchSupportedNpadCount: 8'
-    - line: '|   switchEnableTouchScreen: 1'
-    - line: '|   switchSocketConfigEnabled: 0'
-    - line: '|   switchTcpInitialSendBufferSize: 32'
-    - line: '|   switchTcpInitialReceiveBufferSize: 64'
-    - line: '|   switchTcpAutoSendBufferSizeMax: 256'
-    - line: '|   switchTcpAutoReceiveBufferSizeMax: 256'
-    - line: '|   switchUdpSendBufferSize: 9'
-    - line: '|   switchUdpReceiveBufferSize: 42'
-    - line: '|   switchSocketBufferEfficiency: 4'
-    - line: '|   switchSocketInitializeEnabled: 1'
-    - line: '|   switchNetworkInterfaceManagerInitializeEnabled: 1'
-    - line: '|   switchDisableHTCSPlayerConnection: 0'
-    - line: '|   switchUseNewStyleFilepaths: 0'
-    - line: '|   switchUseLegacyFmodPriorities: 0'
-    - line: '|   switchUseMicroSleepForYield: 1'
-    - line: '|   switchEnableRamDiskSupport: 0'
-    - line: '|   switchMicroSleepForYieldTime: 25'
-    - line: '|   switchRamDiskSpaceSize: 12'
-    - line: '|   switchUpgradedPlayerSettingsToNMETA: 0'
-    - line: '|   switchCaStoreSource: 0'
-    - line: '|   switchCaStoreFilePath: '
-    - line: '|   ps4NPAgeRating: 12'
-    - line: '|   ps4NPTitleSecret: '
-    - line: '|   ps4NPTrophyPackPath: '
-    - line: '|   ps4ParentalLevel: 11'
-    - line: '|   ps4ContentID: ED1633-NPXX51362_00-0000000000000000'
-    - line: '|   ps4Category: 0'
-    - line: '|   ps4MasterVersion: 01.00'
-    - line: '|   ps4AppVersion: 01.00'
-    - line: '|   ps4AppType: 0'
-    - line: '|   ps4ParamSfxPath: '
-    - line: '|   ps4VideoOutPixelFormat: 0'
-    - line: '|   ps4VideoOutInitialWidth: 1920'
-    - line: '|   ps4VideoOutBaseModeInitialWidth: 1920'
-    - line: '|   ps4VideoOutReprojectionRate: 60'
-    - line: '|   ps4PronunciationXMLPath: '
-    - line: '|   ps4PronunciationSIGPath: '
-    - line: '|   ps4BackgroundImagePath: '
-    - line: '|   ps4StartupImagePath: '
-    - line: '|   ps4StartupImagesFolder: '
-    - line: '|   ps4IconImagesFolder: '
-    - line: '|   ps4SaveDataImagePath: '
-    - line: '|   ps4SdkOverride: '
-    - line: '|   ps4BGMPath: '
-    - line: '|   ps4ShareFilePath: '
-    - line: '|   ps4ShareOverlayImagePath: '
-    - line: '|   ps4PrivacyGuardImagePath: '
-    - line: '|   ps4ExtraSceSysFile: '
-    - line: '|   ps4NPtitleDatPath: '
-    - line: '|   ps4RemotePlayKeyAssignment: -1'
-    - line: '|   ps4RemotePlayKeyMappingDir: '
-    - line: '|   ps4PlayTogetherPlayerCount: 0'
-    - line: '|   ps4EnterButtonAssignment: 2'
-    - line: '|   ps4ApplicationParam1: 0'
-    - line: '|   ps4ApplicationParam2: 0'
-    - line: '|   ps4ApplicationParam3: 0'
-    - line: '|   ps4ApplicationParam4: 0'
-    - line: '|   ps4DownloadDataSize: 0'
-    - line: '|   ps4GarlicHeapSize: 2048'
-    - line: '|   ps4ProGarlicHeapSize: 2560'
-    - line: '|   playerPrefsMaxSize: 32768'
-    - line: '|   ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ'
-    - line: '|   ps4pnSessions: 1'
-    - line: '|   ps4pnPresence: 1'
-    - line: '|   ps4pnFriends: 1'
-    - line: '|   ps4pnGameCustomData: 1'
-    - line: '|   playerPrefsSupport: 0'
-    - line: '|   enableApplicationExit: 0'
-    - line: '|   resetTempFolder: 1'
-    - line: '|   restrictedAudioUsageRights: 0'
-    - line: '|   ps4UseResolutionFallback: 0'
-    - line: '|   ps4ReprojectionSupport: 0'
-    - line: '|   ps4UseAudio3dBackend: 0'
-    - line: '|   ps4UseLowGarlicFragmentationMode: 1'
-    - line: '|   ps4SocialScreenEnabled: 0'
-    - line: '|   ps4ScriptOptimizationLevel: 2'
-    - line: '|   ps4Audio3dVirtualSpeakerCount: 14'
-    - line: '|   ps4attribCpuUsage: 0'
-    - line: '|   ps4PatchPkgPath: '
-    - line: '|   ps4PatchLatestPkgPath: '
-    - line: '|   ps4PatchChangeinfoPath: '
-    - line: '|   ps4PatchDayOne: 0'
-    - line: '|   ps4attribUserManagement: 0'
-    - line: '|   ps4attribMoveSupport: 0'
-    - line: '|   ps4attrib3DSupport: 0'
-    - line: '|   ps4attribShareSupport: 0'
-    - line: '|   ps4attribExclusiveVR: 0'
-    - line: '|   ps4disableAutoHideSplash: 0'
-    - line: '|   ps4videoRecordingFeaturesUsed: 0'
-    - line: '|   ps4contentSearchFeaturesUsed: 0'
-    - line: '|   ps4CompatibilityPS5: 0'
-    - line: '|   ps4AllowPS5Detection: 0'
-    - line: '|   ps4GPU800MHz: 1'
-    - line: '|   ps4attribEyeToEyeDistanceSettingVR: 0'
-    - line: '|   ps4IncludedModules: []'
-    - line: '|   ps4attribVROutputEnabled: 0'
-    - line: '|   monoEnv: '
-    - line: '|   splashScreenBackgroundSourceLandscape: {instanceID: 0}'
-    - line: '|   splashScreenBackgroundSourcePortrait: {instanceID: 0}'
-    - line: '|   blurSplashScreenBackground: 1'
-    - line: '|   spritePackerPolicy: '
-    - line: '|   webGLMemorySize: 32'
-    - line: '|   webGLExceptionSupport: 1'
-    - line: '|   webGLNameFilesAsHashes: 0'
-    - line: '|   webGLShowDiagnostics: 0'
-    - line: '|   webGLDataCaching: 1'
-    - line: '|   webGLDebugSymbols: 0'
-    - line: '|   webGLEmscriptenArgs: '
-    - line: '|   webGLModulesDirectory: '
-    - line: '|   webGLTemplate: APPLICATION:Default'
-    - line: '|   webGLAnalyzeBuildSize: 0'
-    - line: '|   webGLUseEmbeddedResources: 0'
-    - line: '|   webGLCompressionFormat: 0'
-    - line: '|   webGLWasmArithmeticExceptions: 0'
-    - line: '|   webGLLinkerTarget: 1'
-    - line: '|   webGLThreadsSupport: 0'
-    - line: '|   webGLDecompressionFallback: 0'
-    - line: '|   webGLInitialMemorySize: 32'
-    - line: '|   webGLMaximumMemorySize: 2048'
-    - line: '|   webGLMemoryGrowthMode: 2'
-    - line: '|   webGLMemoryLinearGrowthStep: 16'
-    - line: '|   webGLMemoryGeometricGrowthStep: 0.2'
-    - line: '|   webGLMemoryGeometricGrowthCap: 96'
-    - line: '|   webGLPowerPreference: 2'
-    - line: '|   webGLWebAssemblyTable: 0'
-    - line: '|   webGLWebAssemblyBigInt: 0'
-    - line: '|   webGLCloseOnQuit: 0'
-    - line: '|   webWasm2023: 1'
-    - line: '|   webEnableSubmoduleStrippingCompatibility: 0'
-    - line: '|   webProgressiveAssetLoading: 0'
-    - line: '|   scriptingDefineSymbols:'
-    - line: '|     Android: OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;SENTIS_ANALYTICS_ENABLED;APP_UI_EDITOR_ONLY'
-    - line: '|     Standalone: OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS'
-    - line: '|   additionalCompilerArguments: {}'
-    - line: '|   platformArchitecture: {}'
-    - line: '|   scriptingBackend:'
-    - line: '|     Android: 1'
-    - line: '|   il2cppCompilerConfiguration: {}'
-    - line: '|   il2cppCodeGeneration: {}'
-    - line: '|   il2cppLTOMode: {}'
-    - line: '|   il2cppStacktraceInformation: {}'
-    - line: '|   managedStrippingLevel: {}'
-    - line: '|   incrementalIl2cppBuild: {}'
-    - line: '|   suppressCommonWarnings: 1'
-    - line: '|   allowUnsafeCode: 0'
-    - line: '|   useDeterministicCompilation: 1'
-    - line: '|   additionalIl2CppArgs: '
-    - line: '|   scriptingRuntimeVersion: 1'
-    - line: '|   gcIncremental: 1'
-    - line: '|   gcWBarrierValidation: 0'
-    - line: '|   managedCodeVariant: {}'
-    - line: '|   apiCompatibilityLevelPerPlatform: {}'
-    - line: '|   editorAssembliesCompatibilityLevel: 1'
-    - line: '|   m_RenderingPath: 1'
-    - line: '|   m_MobileRenderingPath: 1'
-    - line: '|   metroPackageName: GrabTheCubeDropTheCube'
-    - line: '|   metroPackageVersion: '
-    - line: '|   metroCertificatePath: '
-    - line: '|   metroCertificatePassword: '
-    - line: '|   metroCertificateSubject: '
-    - line: '|   metroCertificateIssuer: '
-    - line: '|   metroCertificateNotAfter: 0000000000000000'
-    - line: '|   metroApplicationDescription: GrabTheCubeDropTheCube'
-    - line: '|   wsaImages: {}'
-    - line: '|   metroTileShortName: '
-    - line: '|   metroTileShowName: 0'
-    - line: '|   metroMediumTileShowName: 0'
-    - line: '|   metroLargeTileShowName: 0'
-    - line: '|   metroWideTileShowName: 0'
-    - line: '|   metroSupportStreamingInstall: 0'
-    - line: '|   metroLastRequiredScene: 0'
-    - line: '|   metroDefaultTileSize: 1'
-    - line: '|   metroTileForegroundText: 2'
-    - line: '|   metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}'
-    - line: '|   metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628, a: 1}'
-    - line: '|   metroSplashScreenUseBackgroundColor: 0'
-    - line: '|   syncCapabilities: 0'
-    - line: '|   platformCapabilities: {}'
-    - line: '|   metroTargetDeviceFamilies: {}'
-    - line: '|   metroFTAName: '
-    - line: '|   metroFTAFileTypes: []'
-    - line: '|   metroProtocolName: '
-    - line: '|   vcxProjDefaultLanguage: '
-    - line: '|   XboxOneProductId: '
-    - line: '|   XboxOneUpdateKey: '
-    - line: '|   XboxOneSandboxId: '
-    - line: '|   XboxOneContentId: '
-    - line: '|   XboxOneTitleId: '
-    - line: '|   XboxOneSCId: '
-    - line: '|   XboxOneGameOsOverridePath: '
-    - line: '|   XboxOnePackagingOverridePath: '
-    - line: '|   XboxOneAppManifestOverridePath: '
-    - line: '|   XboxOneVersion: 1.0.0.0'
-    - line: '|   XboxOnePackageEncryption: 0'
-    - line: '|   XboxOnePackageUpdateGranularity: 2'
-    - line: '|   XboxOneDescription: '
-    - line: '|   XboxOneLanguage:'
-    - line: '|   - enus'
-    - line: '|   XboxOneCapability: []'
-    - line: '|   XboxOneGameRating: {}'
-    - line: '|   XboxOneIsContentPackage: 0'
-    - line: '|   XboxOneEnhancedXboxCompatibilityMode: 0'
-    - line: '|   XboxOneEnableGPUVariability: 1'
-    - line: '|   XboxOneSockets: {}'
-    - line: '|   XboxOneSplashScreen: {instanceID: 0}'
-    - line: '|   XboxOneAllowedProductIds: []'
-    - line: '|   XboxOnePersistentLocalStorageSize: 0'
-    - line: '|   XboxOneXTitleMemory: 8'
-    - line: '|   XboxOneOverrideIdentityName: '
-    - line: '|   XboxOneOverrideIdentityPublisher: '
-    - line: '|   cloudServicesEnabled: {}'
-    - line: '|   luminIcon:'
-    - line: '|     m_Name: '
-    - line: '|     m_ModelFolderPath: '
-    - line: '|     m_PortalFolderPath: '
-    - line: '|   luminCert:'
-    - line: '|     m_CertPath: '
-    - line: '|     m_SignPackage: 1'
-    - line: '|   luminIsChannelApp: 0'
-    - line: '|   luminVersion:'
-    - line: '|     m_VersionCode: 1'
-    - line: '|     m_VersionName: '
-    - line: '|   hmiPlayerDataPath: '
-    - line: '|   hmiForceSRGBBlit: 1'
-    - line: '|   embeddedLinuxEnableGamepadInput: 0'
-    - line: '|   hmiCpuConfiguration: '
-    - line: '|   hmiLogStartupTiming: 0'
-    - line: '|   qnxGraphicConfPath: '
-    - line: '|   apiCompatibilityLevel: 6'
-    - line: '|   captureStartupLogs: {}'
-    - line: '|   activeInputHandler: 1'
-    - line: '|   windowsGamepadBackendHint: 0'
-    - line: '|   enableDirectStorage: 0'
-    - line: '|   cloudProjectId: '
-    - line: '|   framebufferDepthMemorylessMode: 0'
-    - line: '|   qualitySettingsNames: []'
-    - line: '|   projectName: '
-    - line: '|   organizationId: '
-    - line: '|   cloudEnabled: 0'
-    - line: '|   legacyClampBlendShapeWeights: 0'
-    - line: '|   hmiLoadingImage: {instanceID: 0}'
-    - line: '|   platformRequiresReadableAssets: 0'
-    - line: '|   virtualTexturingSupportEnabled: 0'
-    - line: '|   insecureHttpOption: 0'
-    - line: '|   androidVulkanDenyFilterList: []'
-    - line: '|   androidVulkanAllowFilterList: []'
-    - line: '|   androidVulkanDeviceFilterListAsset: {instanceID: 0}'
-    - line: '|   d3d12DeviceFilterListAsset: {instanceID: 0}'
-    - line: '|   webGPUDeviceFilterListAsset: {instanceID: 0}'
-    - line: '|   allowedHttpConnections: 3'
-    - line: '| '
+    m_Settings: []
   requiredComponents: []
   references:
     version: 2

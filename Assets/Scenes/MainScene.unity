@@ -574,7 +574,7 @@ GameObject:
   - component: {fileID: 288538236}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -746,6 +746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: (Prb)OfficeChair
       objectReference: {fileID: 0}
+    - target: {fileID: 2824801679941595952, guid: 3713613c4ffcd6945900432c53af79b8, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 3204423859770501514, guid: 3713613c4ffcd6945900432c53af79b8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.066
@@ -883,7 +887,7 @@ GameObject:
   - component: {fileID: 536772642}
   m_Layer: 0
   m_Name: DeskTop
-  m_TagString: Untagged
+  m_TagString: DeskTop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2083,6 +2087,7 @@ GameObject:
   - component: {fileID: 1115257002}
   - component: {fileID: 1115257007}
   - component: {fileID: 1115257008}
+  - component: {fileID: 1115257009}
   m_Layer: 0
   m_Name: GrabbyCube
   m_TagString: Untagged
@@ -2250,6 +2255,32 @@ MonoBehaviour:
   minY: -2
   maxY: 10
   maxDistance: 8
+--- !u!114 &1115257009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115257001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6dc0c6556ae632dcafd6e59478b057f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionSound
+  deskSounds:
+  - {fileID: 8300000, guid: 8d0eab92bee20e7fca37d3bb19bcf3a2, type: 3}
+  floorSounds:
+  - {fileID: 8300000, guid: 1162ef38f23308369a1ce0770222fb91, type: 3}
+  - {fileID: 8300000, guid: 7ad68f16adb40c2e294fa33cad2e9c12, type: 3}
+  - {fileID: 8300000, guid: 39edd2a83aa9ccd3e891da73c1765978, type: 3}
+  chairSounds:
+  - {fileID: 8300000, guid: 8d0eab92bee20e7fca37d3bb19bcf3a2, type: 3}
+  grabSounds:
+  - {fileID: 8300000, guid: abd6ab782f754abd69fb64c847ea6ed6, type: 3}
+  - {fileID: 8300000, guid: fc9c56936d21780cf9db68975592b412, type: 3}
+  - {fileID: 8300000, guid: 207b77638b20e9ec1b03cb282b0a5caf, type: 3}
+  minImpactSpeed: 0.5
+  cooldown: 0.15
 --- !u!1001 &1144892902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3098,7 +3129,7 @@ GameObject:
   - component: {fileID: 1865792730}
   m_Layer: 0
   m_Name: BottomCushion
-  m_TagString: Untagged
+  m_TagString: Chair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
