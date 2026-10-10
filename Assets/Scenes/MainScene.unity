@@ -2371,7 +2371,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7ad68f16adb40c2e294fa33cad2e9c12, type: 3}
   - {fileID: 8300000, guid: 39edd2a83aa9ccd3e891da73c1765978, type: 3}
   chairSounds:
-  - {fileID: 8300000, guid: 8d0eab92bee20e7fca37d3bb19bcf3a2, type: 3}
+  - {fileID: 8300000, guid: 39edd2a83aa9ccd3e891da73c1765978, type: 3}
+  - {fileID: 8300000, guid: 7ad68f16adb40c2e294fa33cad2e9c12, type: 3}
+  - {fileID: 8300000, guid: 1162ef38f23308369a1ce0770222fb91, type: 3}
   grabSounds:
   - {fileID: 8300000, guid: abd6ab782f754abd69fb64c847ea6ed6, type: 3}
   - {fileID: 8300000, guid: fc9c56936d21780cf9db68975592b412, type: 3}
