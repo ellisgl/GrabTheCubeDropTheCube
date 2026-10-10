@@ -1,5 +1,6 @@
+![A desk with the lamp, clipboard, pen and floating cube against the wood wall, no text](StoreAssets/hero-cover-3000x900.png)
 # Grab the Cube, Drop the Cube
-Just a basic VR scene for the Meta Quest built in Unity 6.6, where can grab the cube, then drop the cube.
+Just a basic VR scene for the Meta Quest built in Unity 6.7 Beta, where can grab the cube, then drop the cube.
 
 ## Attributions:
 * methodical pixel - [Backrooms PBR texture pack](https://opengameart.org/content/backrooms-pbr-texture-pack)
