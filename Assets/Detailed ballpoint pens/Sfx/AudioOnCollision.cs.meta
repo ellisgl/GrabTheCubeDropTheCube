@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ad3e5beb48df41c4ab615e4f8627a22e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 164157
+  packageName: Detailed ballpoint pens
+  packageVersion: 1.0
+  assetPath: Assets/Detailed ballpoint pens/Sfx/AudioOnCollision.cs
+  uploadId: 356402

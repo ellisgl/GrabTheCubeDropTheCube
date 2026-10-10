@@ -15,7 +15,7 @@ MonoBehaviour:
   enabled: 0
   serverAddress: 192.168.12.220
   serverPort: 48735
-  mcpServerPort: 48736
+  useVoiceSdkForInput: 0
   witConfiguration: {fileID: 0}
   witClientAccessToken: 
   pushToTalkButton: 1
