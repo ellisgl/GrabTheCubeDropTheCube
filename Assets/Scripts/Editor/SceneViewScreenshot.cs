@@ -14,8 +14,8 @@ public static class SceneViewScreenshot
             return;
         }
 
-        const int width = 1920;
-        const int height = 1080;
+        const int width = 2560;
+        const int height = 1440;
 
         Camera camera = view.camera;
         RenderTexture target = new RenderTexture(width, height, 24);
