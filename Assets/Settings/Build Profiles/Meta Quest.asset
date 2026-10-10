@@ -162,7 +162,7 @@ BuildProfilePlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 0.1.0
+  bundleVersion: 1.0.0
   preloadedAssets:
   - {fileID: 11400000, guid: 13bfa92bd0ba0af799460bd7d62235cc, type: 2}
   - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
@@ -185,7 +185,7 @@ BuildProfilePlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.UnityTechnologies.com.unity.template.urpblank
+    Android: com.StuffByEllis.GrabTheCube
     Standalone: com.Unity-Technologies.com.unity.template.urp-blank
     iPhone: com.Unity-Technologies.com.unity.template.urp-blank
   buildNumber:
@@ -279,7 +279,7 @@ BuildProfilePlayerSettings:
   clonedFromGUID: 3c72c65a16f0acb438eed22b8b16c24a
   templatePackageId: com.unity.template.urp-blank@17.2.5
   templateDefaultScene: Assets/Scenes/SampleScene.unity
-  useCustomMainManifest: 0
+  useCustomMainManifest: 1
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 0
   useCustomLauncherGradleManifest: 0
@@ -290,8 +290,8 @@ BuildProfilePlayerSettings:
   AndroidTargetArchitectures: 2
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: /home/ellis/Documents/user.keystore
+  AndroidKeyaliasName: grabthecube
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidEnableArm64MTE: 0
   AndroidBuildApkPerCpuArchitecture: 0
@@ -302,7 +302,7 @@ BuildProfilePlayerSettings:
   androidAppCategoryOther: 
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 0
+  androidUseCustomKeystore: 1
   androidRenderServiceUseVirtualDisplay: 0
   m_AndroidBanners:
   - width: 320
@@ -423,6 +423,31 @@ BuildProfilePlayerSettings:
   - m_BuildTarget: Android
     m_Icons:
     - m_Textures: []
+      m_Width: 640
+      m_Height: 360
+      m_Kind: 3
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 480
+      m_Height: 270
+      m_Kind: 3
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 320
+      m_Height: 180
+      m_Kind: 3
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 240
+      m_Height: 135
+      m_Kind: 3
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 160
+      m_Height: 90
+      m_Kind: 3
+      m_SubKind: 
+    - m_Textures: []
       m_Width: 432
       m_Height: 432
       m_Kind: 2
@@ -451,31 +476,6 @@ BuildProfilePlayerSettings:
       m_Width: 81
       m_Height: 81
       m_Kind: 2
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 640
-      m_Height: 360
-      m_Kind: 3
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 480
-      m_Height: 270
-      m_Kind: 3
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 320
-      m_Height: 180
-      m_Kind: 3
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 240
-      m_Height: 135
-      m_Kind: 3
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 160
-      m_Height: 90
-      m_Kind: 3
       m_SubKind: 
   - m_BuildTarget: tvOS
     m_Icons:
@@ -1087,7 +1087,7 @@ MonoBehaviour:
   m_Script: {fileID: 15010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Quality Settings
   m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.Build.Profile.BuildProfileQualitySettings
-  m_DefaultQualityLevel: Meta Quest (Build Profile)
+  m_DefaultQualityLevel: Meta Quest Build Profile
   m_QualityLevels:
   - Mobile
-  - Meta Quest (Build Profile)
+  - Meta Quest Build Profile
