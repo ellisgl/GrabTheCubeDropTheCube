@@ -45,7 +45,7 @@ BuildProfilePlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos: []
-  m_VirtualRealitySplashScreen: {fileID: 0}
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 98d1b8acb0454180bb3a8e17bd639e86, type: 3}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
@@ -323,7 +323,14 @@ BuildProfilePlayerSettings:
   androidAdaptiveIconVectorDrawableMonochrome: {fileID: 0}
   androidAdaptiveBannerVectorDrawableBackground: {fileID: 0}
   androidAdaptiveBannerVectorDrawableForeground: {fileID: 0}
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: a190c1afe5ea2005e9821c463759fb54, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: iPhone
     m_Icons:
