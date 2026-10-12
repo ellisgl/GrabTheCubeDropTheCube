@@ -53,7 +53,7 @@
       "dependencies": {}
     },
     "com.unity.ai.assistant": {
-      "version": "2.19.0-pre.2",
+      "version": "2.20.0-pre.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -118,12 +118,7 @@
       "version": "6.7.0",
       "depth": 1,
       "source": "builtin",
-      "dependencies": {
-        "com.unity.burst": "1.8.25",
-        "com.unity.nuget.mono-cecil": "1.11.6",
-        "com.unity.test-framework": "1.4.6",
-        "com.unity.test-framework.performance": "3.2.0"
-      }
+      "dependencies": {}
     },
     "com.unity.dt.app-ui": {
       "version": "2.2.4",
@@ -138,7 +133,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
-      "version": "2.1.1",
+      "version": "2.1.2",
       "depth": 1,
       "source": "builtin",
       "dependencies": {}
@@ -282,15 +277,6 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       }
     },
-    "com.unity.test-framework.performance": {
-      "version": "6.7.0",
-      "depth": 2,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.test-framework": "1.1.33",
-        "com.unity.modules.jsonserialize": "1.0.0"
-      }
-    },
     "com.unity.textmeshpro": {
       "version": "5.0.0",
       "depth": 1,
@@ -320,7 +306,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ugui": {
-      "version": "2.7.0",
+      "version": "7.0.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
@@ -329,7 +315,7 @@
       }
     },
     "com.unity.xr.core-utils": {
-      "version": "6.0.0",
+      "version": "7.0.0",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
@@ -359,7 +345,7 @@
       }
     },
     "com.unity.xr.management": {
-      "version": "6.0.0",
+      "version": "7.0.0",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
