@@ -198,7 +198,7 @@ BuildProfilePlayerSettings:
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 2
   AndroidMinSdkVersion: 34
   AndroidTargetSdkVersion: 34
   AndroidCompileSdkVersion: 34000000
